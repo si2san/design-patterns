@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace SiThuSan\Creational\Singleton;
+
 final class Singleton
 {
     private static ?self $instance = null;
