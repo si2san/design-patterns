@@ -17,5 +17,10 @@
             "SiThuSan\\Creational\\": "creational/",
             "SiThuSan\\Structural\\": "structural/"
         }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ]
     }
 }
