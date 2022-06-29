@@ -26,13 +26,3 @@ final class Singleton
         echo "Single API</br>";
     }
 }
-
-$instance = Singleton::getSingleton();
-$instance->api();
-
-$instance2 = Singleton::getSingleton();
-$instance2->api();
-
-if ($instance === $instance2) {
-    echo "Same!";
-}
